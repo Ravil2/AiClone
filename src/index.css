@@ -11,14 +11,14 @@ html {
 }
 
 body {
-  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  background: linear-gradient(135deg, #1a1a2e 0%, #030408 100%);
   color: #fff;
   font-family: 'Inter', sans-serif;
 }
 
 .glass {
   flex: 3;
-  background: rgba(25, 25, 45, 0.7);
+  background: rgba(9, 9, 15, 0.7);
   backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
   border-right: 1px solid rgba(255, 255, 255, 0.08);
@@ -55,7 +55,7 @@ body {
 .brand {
   font-size: 4rem;
   font-weight: 700;
-  background: linear-gradient(90deg, #8a2be2 0%, #9370db 100%);
+  background: linear-gradient(90deg, #8400ff 0%, #b38dfe 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -72,7 +72,7 @@ body {
 }
 
 .midBtn {
-  background: linear-gradient(135deg, #8a2be2 0%, #4b0082 100%);
+  background: rgba(255, 255, 255, 0.08);
   border: none;
   color: white;
   padding: 1.5rem;
@@ -86,17 +86,16 @@ body {
   border-radius: 12px;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(138, 43, 226, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.logoBlock{
+.logoBlock {
   display: flex;
   align-items: end;
 }
 
 .midBtn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(138, 43, 226, 0.4);
 }
 
 .midBtn:active {
@@ -111,9 +110,9 @@ body {
   padding: 1.2rem 1.5rem;
   font-size: 1.4rem;
   width: 100%;
-  margin: 0.5rem 0;
+  margin: 1rem 0;
   border-radius: 8px;
-  border: none;
+  border: 1px solid rgba(255, 255, 255, 0.09);
   cursor: pointer;
   transition: all 0.2s ease;
 }

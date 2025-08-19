@@ -10,7 +10,7 @@ export default function Sidebar() {
     <div className="sideBar glass">
       <div className="upperSide">
         <div className="upperSideTop">
-          <div className='logoBlock'>
+          <div className="logoBlock">
             <img
               src="/neyroAilogo.webp"
               alt="Logo"
